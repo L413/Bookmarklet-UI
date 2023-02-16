@@ -19,7 +19,7 @@ javascript:(function () {
             getScript("https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.js", function () {
                 var myStylesLocation = "https://code.jquery.com/ui/1.13.0-alpha.1/themes/smoothness/jquery-ui.css";
                 $('<link rel="stylesheet" type="text/css" href="'+myStylesLocation+'" >').appendTo("head");
-                $("<div id='dialog'; title='Bookmarklet UI'; style='border:2px solid black; background-color:lightblue; font-size:80%'; <p>This is text inside a bookmarklet.</p></div>").appendTo("body");
+                $("<div id='dialog'; title='Bookmarklet UI'; style='border:none; background-color:white; font-size:80%'; <p>This is text inside a bookmarklet.</p></div>").appendTo("body");
                 $( "#dialog" ).dialog();
             });
         });
